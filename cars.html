@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
      <link rel="stylesheet" href="css/style.css">
+     <script src="js/checktoken.js"></script> 
     <script src="js/main.js" defer></script> 
 </head>
 <body>
@@ -16,16 +17,37 @@
     <nav class="navig">
 <ul class="nav_ul">
 <li><a href="/index.html"><b>Startsida</b></a></li>
-<li><a href="/cars.html"><b>Bilar</b></a></li>
-<li> <a href="/login.html" id="login_button"><b>Login</b></a></li> 
+<li><a href="/cars.html"><b>Bilar</b></a></li>s
+<li><a href="/login.html" id="login_button"><b>Login</b></a></li>
 <li><a href="/register .html"><b>Registrera</b></a></li>
+
 </ul>
 </nav>
 </header>
 <main>
 <!-- Header with logo and navigations link -->
+ 
 
-
+<h2>Lägg till ny bil:</h2>
+  <form id="addCar">
+<label for="carbrand">Bilmärke:</label>
+<br>
+<input type="text" id="carbrand" name="carbrand">
+<br>
+<label for="carmodel">Modell::</label>
+<br>
+<input type="text" id="carmodel" name="carmodel">
+<br>
+<label for="price">Pris:</label>
+<br>
+<input type="text" id="price" name="price">
+<br>
+<label for="myear">År:</label>
+<br>
+<input type="text" id="year" name="year">
+<br>
+<button type="submit">Lägg till Bil</button>
+</form>
 
 </main>
 <footer>
