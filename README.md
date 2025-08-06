@@ -40,8 +40,8 @@ register/login:
 
 {   
 
-"username" : "niklas",  
-"password" : "password"
+"username" : "your_username",  
+"password" : "you_password"
 
 } 
 
@@ -49,9 +49,9 @@ lägg till ny bil:
 
 {  
 
-"carbrand" : "toyta",   
-"carmodel" : "jarris",   
-"price" : 350000,  
+"carbrand" : "carbrandName",   
+"carmodel" : "carmodelName",   
+"price" : 6666666,  
 "year" : 2024  
 
 } 
