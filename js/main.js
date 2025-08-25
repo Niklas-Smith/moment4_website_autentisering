@@ -40,8 +40,7 @@ getCars();
 
 //function som kollar om addcar_token finns i localstorage och skriver ut olika htmml beråend på det
 function changeNav( ){
-    /*
-localStorage.setItem("addcar_token", "testtest") */
+
 
   if(localStorage.getItem("addcar_token")) {
     nav.innerHTML = `
@@ -57,7 +56,7 @@ localStorage.setItem("addcar_token", "testtest") */
         nav.innerHTML = `
     <li><a href="/index.html"><b>Startsida</b></a></li>
 <li><a href="/login.html"><b>logga in</b></a></li>
-<li><a href="/register .html"><b>Registrera</b></a></li>
+<li><a href="/register.html"><b>Registrera</b></a></li>
     
     `
     }
